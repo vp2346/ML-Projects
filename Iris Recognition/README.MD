@@ -27,7 +27,7 @@ It also outputs CRR against dimensionality of feature vector:
 
 ![alt text](https://user-images.githubusercontent.com/16806108/43931414-46608fd2-9c0c-11e8-933d-dbbcbf2bbc64.PNG | width=100)
 
-<img src="https://user-images.githubusercontent.com/16806108/43931414-46608fd2-9c0c-11e8-933d-dbbcbf2bbc64.PNG " width="100">
+<img src="https://user-images.githubusercontent.com/16806108/43931414-46608fd2-9c0c-11e8-933d-dbbcbf2bbc64.PNG " align="center" height="400"width="400">
 
 ## IrisLocalization.m:
 [pupil_centor, iris_centor] = IrisRecognition(I) finds circles for pupil and iris in image I. It returns
