@@ -1,4 +1,4 @@
-##Implement the exact same design as Mal et al., 2003 paper (see the reference)
+## Implement the exact same design as Mal et al., 2003 paper (see the reference)
 
 Database (CASIA Iris Image Database Version 1.0): contains 108 eyes, 7 iris images per eye, which were captured in two sessions 
 (3 in the first session, 4 in the second session). All images are stored as BMP format with 320x280 pixel size.
@@ -17,7 +17,7 @@ We will use these 4 data for IrisMatching and PerformanceEvaluation to calculate
 for each method:
 
 | Similarity Measure       | Original Feature Set        | Reduced Feature Set using PCA only |   Reduced Feature Set using PCA & LDA   |
-| -------------            |:-------------:              | -----:| ----:|
+| -------------            |:-------------:              | :-----:|:-----:|
 | L1 Distance     | 0.8750 | 0.8796 |  0.8634    |
 | L2 Distance      | 0.8287      |  0.8287  |  0.8773    |
 | Cosine Similarity | 0.8264      |    0.8264 |    0.8681   |
