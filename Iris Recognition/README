@@ -1,4 +1,4 @@
-## Implement the exact same design as Mal et al., 2003 paper (see the reference)
+##Implement the exact same design as Mal et al., 2003 paper (see the reference)
 
 Database (CASIA Iris Image Database Version 1.0): contains 108 eyes, 7 iris images per eye, which were captured in two sessions 
 (3 in the first session, 4 in the second session). All images are stored as BMP format with 320x280 pixel size.
@@ -25,7 +25,7 @@ for each method:
 
 
 
-## IrisRecognition.m:
+##IrisRecognition.m:
 [pupil_centor, iris_centor] = IrisRecognition(I) finds circles for pupil and iris in image I. 
 It returns two column vectors, each containing center row coordinate, column coordinate, and radius. 
 Logic: For pupil detection, threshold value is determined based on histogram of each image. The algorithm first finds the maximum count 
