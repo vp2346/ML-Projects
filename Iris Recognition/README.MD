@@ -23,9 +23,10 @@ for each method:
 | Cosine Similarity | 0.8264      |    0.8264 |    0.8681   |
 
 
+It also outputs CRR against dimensionality of feature vector:
 
 
-##IrisRecognition.m:
+## IrisRecognition.m:
 [pupil_centor, iris_centor] = IrisRecognition(I) finds circles for pupil and iris in image I. 
 It returns two column vectors, each containing center row coordinate, column coordinate, and radius. 
 Logic: For pupil detection, threshold value is determined based on histogram of each image. The algorithm first finds the maximum count 
@@ -40,5 +41,6 @@ For iris detection, use median filter with 9x9 window and canny edge detection. 
 
 
 Reference
+
 • Ma et al., Personal Identification Based on IrisTexture Analysis, IEEE TRANSACTIONS ON
 PATTERN ANALYSIS AND MACHINE INTELLIGENCE, VOL. 25, NO. 12, DECEMBER 2003
