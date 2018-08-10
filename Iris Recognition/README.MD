@@ -25,10 +25,9 @@ for each method:
 
 It also outputs CRR against dimensionality of feature vector:
 
-![alt text](https://user-images.githubusercontent.com/16806108/43931414-46608fd2-9c0c-11e8-933d-dbbcbf2bbc64.PNG | width=100)
-
-<img align="center" width="400" height="300" src="https://user-images.githubusercontent.com/16806108/43931414-46608fd2-9c0c-11e8-933d-dbbcbf2bbc64.PNG">
-
+<p align="center">
+  <img width="560" height="400" src="https://user-images.githubusercontent.com/16806108/43931414-46608fd2-9c0c-11e8-933d-dbbcbf2bbc64.PNG">
+</p>
 
 
 ## IrisLocalization.m:
