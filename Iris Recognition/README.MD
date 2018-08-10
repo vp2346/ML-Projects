@@ -70,14 +70,22 @@ training data (both x and y) and testing data (only x), returns predicted y valu
 feature_type and distance_type.
 
 Feature_type:
+
 ‘all’ – using all features;
+
 ‘pca’ – using pca with default of 323 features;
+
 ‘lda’ – apply pca first then apply lda. If feature_type is ‘lda’, should also input numb_features
 (number of features).
+
 distance_type:
+
 ‘d1’ – L1 distance;
+
 ‘d2’ – L2 distance;
+
 ‘d3’ – Cosine similarity distance.
+
 Logic: For feature reduction, since the dimension of each data is 1536 and number of training
 data is 324, when apply LDA directly to the training data, it will cause singular matrix issue so I
 apply PCA to reduce number of features to 323 then use LDA to further reduce number of
