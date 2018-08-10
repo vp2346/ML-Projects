@@ -14,7 +14,8 @@ movies.txt contains the mapping from movie_id to movie name. Row j corresponds t
 ## Matrix Factorization Algorithm
 Matrix_factorization.m: For the algorithm, we set σ2 = 0.25, d = 10 and λ = 1. Train the model on the larger training
 set for 100 iterations. For each user-movie pair in the test set, predict the rating using the relevant dot product.
-It returns a) and b) below.
+
+It outputs a) and b) below.
 
 a) Log joint likelihood for iterations 2 to 100 for 10 runs:
 
