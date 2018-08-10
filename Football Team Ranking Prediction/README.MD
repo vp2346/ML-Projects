@@ -16,6 +16,7 @@ to the row of “TeamNames.txt” where that team’s name can be found.
 Algorithm: 
 Construct a 760×760 random walk matrix M on the college football teams. First construct the unnormalized matrix M hat with values initialized to zeros. For one particular game, let i be the index of Team A
 and j the index of Team B. Then update
+
 <img width="453" alt="markov_chains" src="https://user-images.githubusercontent.com/16806108/43934322-d7aa4ac2-9c1c-11e8-9eb2-daae8a7af931.PNG">
 
 After processing all games, let M be the matrix formed by normalizing the rows of M hat so they sum to
