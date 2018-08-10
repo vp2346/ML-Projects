@@ -1,4 +1,4 @@
-## Markov Chains model for football teams ranking
+## Markov Chains model for football team rankings
 
 In this project, we use Markov Chains model to predict 760 college football teams ranking in 2016 based on 
 the scores of every game in the 2016 season. 
