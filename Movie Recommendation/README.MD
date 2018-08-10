@@ -24,7 +24,7 @@ a) Log joint likelihood for iterations 2 to 100 for 10 runs:
 b) 10 closest movies for “Star Wars” “My Fair Lady” and “Goodfellas” according to Euclidean distance:
 
 |Ten Closest Movies to Star Wars | Distance |
-| ------------- | ------------- |
+| :-------------:| :-------------: |
 |Empire Strikes Back, The (1980)| 0.4096|
 |Return of the Jedi (1983)| 0.6024|
 |Raiders of the Lost Ark (1981)| 0.8743|
@@ -37,7 +37,7 @@ b) 10 closest movies for “Star Wars” “My Fair Lady” and “Goodfellas”
 |Manon of the Spring (Manon des sources) (1986)| 1.1411|
 
 |Ten Closest Movies to My Fair Lady | Distance |
-| ------------- | ------------- |
+| :-------------: |:-------------: |
 |Sound of Music, The (1965)| 0.7121|
 |Singin'' in the Rain (1952)| 0.9441|
 |Cinderella (1950)| 0.9810|
@@ -50,7 +50,7 @@ b) 10 closest movies for “Star Wars” “My Fair Lady” and “Goodfellas”
 |Babe (1995)| 1.1107|
 
 |Ten Closest Movies to Goodfellas | Distance |
-| ------------- | ------------- |
+| :-------------: | :-------------: |
 |Good, The Bad and The Ugly, The (1966)| 0.6911|
 |Casino (1995)| 0.7074
 |Bonnie and Clyde (1967)| 0.7725|
