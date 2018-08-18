@@ -1,5 +1,5 @@
 ## Handwritten Digit Recognition 
-In this project, we implement Keras CNN classifier for MNIST data and achieved 99.63% accuracy by applying image augmentation. 
+In this project, we implemented Keras CNN classifier for MNIST data and achieved 99.63% accuracy by applying image augmentation. 
 
 ## Dataset
 The training set contains 60000 examples, and the test set contains 10000 examples.
