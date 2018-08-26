@@ -17,19 +17,6 @@ pupil_c=[round(centers(1)), round(centers(2))];
 med_img = medfilt2(image,[9 9],'symmetric'); % median filter on all images
 edg = edge(med_img,'canny'); %canny on median filter image
 
-% gau_img = imgaussfilt(image,3);
-% edg = edge(gau_img,'canny');
-
-% figure;   
-% subplot(2, 2, 1); 
-% imshow(image)
-% title('Original')
-% subplot(2, 2, 2);  
-% imshow(gau_img)
-% title('Gaussian Image');
-% subplot(2, 2, 3);  
-% imshow(edg); 
-% title('Canny edge'); 
 
 [centers_2,radius_2] = imfindcircles(edg,[95 130],'ObjectPolarity','bright',...
           'Sensitivity',0.96,'Method','twostage','EdgeThreshold',0.1);
@@ -63,18 +50,6 @@ pupil_centroid=[pupil_c,radius];
 
 iris_centroid=[iris_c,i_radius];
 
-% subplot(2, 2, 4); 
-% imshow(image);
-% hold on
-% theta = 0 : 0.01 : 2*pi;
-% x = radius * cos(theta) + pupil_c(1);
-% y = radius * sin(theta) + pupil_c(2);
-% plot(x, y, 'b-');
-% hold on
-% theta = 0 : 0.01 : 2*pi;
-% x_2 = i_radius * cos(theta) + iris_c(1);
-% y_2 = i_radius * sin(theta) + iris_c(2);
-% plot(x_2, y_2, 'b-');
-% title('Original Image with boundary'); 
+
 end
 
