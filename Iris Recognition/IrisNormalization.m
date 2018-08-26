@@ -13,7 +13,7 @@ for i = 1:col
         %calculate distance between each pixel and iris centroid
         dis_iris = sqrt((i-iris_circle(2)).^2+(j-iris_circle(1)).^2);  
         if dis_iris > iris_circle(3)   
-            %for pupil outside iris, set to black
+            %for pixels outside iris, set to black
             img(i,j) = 0;  
         end  
     end  
@@ -23,7 +23,7 @@ for i = 1:col
         %calculate distance between each pixel and pupil centroid
         dis_pupil = sqrt((i-pupil_circle(2)).^2+(j-pupil_circle(1)).^2);  
         if dis_pupil < pupil_circle(3)  
-            %for pixels inside pupil, set to white
+            %for pixels inside pupil, set to black
             img(i,j) = 0;  
         end  
     end  
@@ -33,7 +33,7 @@ end
 I_circle = img; 
 
 
-%project the original iris in a Cartesian coordinate system into a doubly dimensionless pseudopolar coordinate system
+%map the original iris in a Cartesian coordinate system into a doubly dimensionless pseudopolar coordinate system
 theta=2*pi/N;
 
 for p=1:N
