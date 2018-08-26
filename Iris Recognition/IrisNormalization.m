@@ -5,7 +5,6 @@
 %M and N are height and weight of the normalized image. I use 64 and 512 
 %according to ma's paper. 
 
-%reference: http://blog.csdn.net/on2way/article/details/40948657
 function [N_image] = IrisNormalization(img,pupil_circle,iris_circle,M,N) 
 
 [col,row]=size(img);  
@@ -32,10 +31,9 @@ end
 
 %I_circle: pupil and iris only image
 I_circle = img; 
-%figure(2)
-%imshow(I_circle)
-%title ('Localized image')
 
+
+%project the original iris in a Cartesian coordinate system into a doubly dimensionless pseudopolar coordinate system
 theta=2*pi/N;
 
 for p=1:N
@@ -62,9 +60,7 @@ for i=1:M
     end
 end
 
-%figure(3)
-%imshow(N_image)
-%title('normalized image')
+
 
 
 
